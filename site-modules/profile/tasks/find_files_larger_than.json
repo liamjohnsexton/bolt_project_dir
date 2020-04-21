@@ -1,0 +1,14 @@
+{
+  "description": "Finds files larger than a given size",
+  "input_method": "environment",
+  "parameters": {
+    "folder": {
+      "description": "The folder to search within",
+      "type": "String[1]"
+    },
+    "min_size": {
+      "description": "The minimum size for files. e.g. '10 MB'",
+      "type": "String[1]"
+    }
+  }
+}

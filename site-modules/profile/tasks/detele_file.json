@@ -1,0 +1,10 @@
+{
+  "description": "Deletes a file",
+  "input_method": "environment",
+  "parameters": {
+    "file": {
+      "description": "The file to delete",
+      "type": "String[1]"
+    }
+  }
+}
