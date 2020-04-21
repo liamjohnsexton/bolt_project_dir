@@ -1,0 +1,14 @@
+---
+version: 5
+
+hierarchy:
+  - name: "Hiera-HTTP lookup"
+    lookup_key: hiera_http
+    uris:
+      - https://gist.githubusercontent.com/dylanratcliffe/0fbe6a9e89a5373dc5b6cea986d7f11d/raw
+    options:
+      output: json
+      ignore_404: true
+      use_ssl: true
+      dig: true
+      dig_key: __KEY__

@@ -1,0 +1,23 @@
+# Whether to use colored output when printing messages to the console
+color: true
+
+# The number of threads to use when executing on remote nodes
+concurrency: 10
+
+# The number of threads to use when executing on remote nodes
+format: human
+
+# Specify whether to update .rerun.json in the Bolt project directory. If your
+# target names include passwords, set this value to false to avoid writing
+# passwords to disk
+save-rerun: true
+
+ssh:
+  # Whether to perform host key validation when connecting over SSH
+  host-key-check: false
+  # A different user to run commands as after login
+  run-as: root
+
+winrm:
+  # When true, Bolt uses secure https connections for WinRM
+  ssl: false
